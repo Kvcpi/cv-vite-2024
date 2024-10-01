@@ -16,7 +16,6 @@ app.innerHTML = `
       <p>Adresse: ${cvData.contact.adresse}</p>
       <p>Âge: ${cvData.contact.age} ans</p>
       <p>Permis: ${cvData.permis.type} ${cvData.permis.vehiculePersonnel ? '(véhicule personnel)' : ''}</p>
-      <p>Mobilité: ${cvData.mobilite ? 'Oui' : 'Non'}</p>
     </section>
     
     <section class="experiences">
