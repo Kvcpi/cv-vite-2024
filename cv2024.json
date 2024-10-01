@@ -1,0 +1,73 @@
+{
+    "nom": "Kacper Szymanski",
+    "titre": "Etudiant Web Designer",
+    "contact": {
+      "email": "szymkacpero13@gmail.com",
+      "telephone": "0488 06 37 99",
+      "adresse": "Bruxelles, Etterbeek",
+      "age": 19
+    },
+    "permis": {
+      "type": "B",
+      "vehiculePersonnel": true
+    },
+    "mobilite": true,
+    "experiencesProfessionnelles": [
+      {
+        "poste": "Job étudiant - Employé polyvalent",
+        "entreprise": "Colruyt Etterbeek",
+        "periode": "Depuis mars 2023"
+      },
+      {
+        "poste": "Stage - Secrétariat",
+        "entreprise": "Facq Zaventem",
+        "annee": 2019
+      },
+      {
+        "poste": "Stage - Secrétariat",
+        "entreprise": "Bruxelles Formation Uccle",
+        "annee": 2018
+      }
+    ],
+    "formations": [
+      {
+        "diplome": "BES - Web Design",
+        "etablissement": "IFOSUP Wavre",
+        "lieu": "Wavre, BW, Belgium",
+        "periode": "Depuis septembre 2023"
+      },
+      {
+        "diplome": "CESS - CQ6 Technicien de bureau",
+        "etablissement": "Athénée Royal Jean Absil",
+        "lieu": "Etterbeek, BU, Belgium",
+        "periode": "De septembre 2021 à juin 2023"
+      }
+    ],
+    "competences": [
+      "CMS",
+      "Wordpress",
+      "Suite Adobe",
+      "Photoshop",
+      "Illustrator",
+      "Canva",
+      "Base"
+    ],
+    "langues": [
+      {
+        "langue": "Français",
+        "niveau": "Langue courante"
+      },
+      {
+        "langue": "Néerlandais",
+        "niveau": "Notion de base"
+      },
+      {
+        "langue": "Polonais",
+        "niveau": "Langue maternelle"
+      }
+    ],
+    "centresInteret": [
+      "Sport - Football",
+      "Jeux vidéos"
+    ]
+  }
