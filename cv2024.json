@@ -1,7 +1,7 @@
 { 
     "nom": "Kacper Szymanski",
     "titre": "Etudiant Web Designer",
-    "photoProfil": "public/oui.png",
+    "photoProfil": "./public/oui.png",
     "contact": {
       "email": "szymkacpero13@gmail.com",
       "telephone": "0488 06 37 99",
