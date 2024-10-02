@@ -1,10 +1,12 @@
-{
+{ 
     "nom": "Kacper Szymanski",
     "titre": "Etudiant Web Designer",
+    "photoProfil": "public/oui.png",
     "contact": {
       "email": "szymkacpero13@gmail.com",
       "telephone": "0488 06 37 99",
       "adresse": "Bruxelles, Etterbeek",
+      "dateNaissance": "19/09/2005",
       "age": 19
     },
     "permis": {
@@ -43,13 +45,11 @@
       }
     ],
     "competences": [
-      "CMS",
       "Wordpress",
-      "Suite Adobe",
+      "Woocommerce",
       "Photoshop",
       "Illustrator",
-      "Canva",
-      "Base"
+      "Canva"
     ],
     "langues": [
       {

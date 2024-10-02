@@ -80,7 +80,29 @@
   h3:hover::after {
     transform: translateX(0);
   }
-  
+
+  .header-content {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  }
+
+  .header-content img {
+      margin-right: 20px; /* Espace entre l'image et le texte */
+      width: 100px; /* Ajuste la taille de l'image si nécessaire */
+      border-radius: 50%; /* Optionnel pour une image ronde */
+  }
+
+  .header-text {
+      text-align: center; /* Centre le texte du nom et titre */
+      align-items: center;
+  }
+
+  .header-text h1, .header-text h2 {
+      margin: 0; /* Supprime les marges par défaut */
+      align-items: center;
+  }
+
   .contact-info {
     background-color: var(--card-background);
     padding: 1rem;
@@ -275,3 +297,4 @@
     top: 20px;
     right: 20px;
   }
+  

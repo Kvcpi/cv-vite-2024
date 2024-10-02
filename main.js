@@ -6,14 +6,22 @@ const app = document.querySelector('#app')
 app.innerHTML = `
   <div class="cv-container">
     <header class="scroll-animation">
-      <h1>${cvData.nom}</h1>
-      <h2>${cvData.titre}</h2>
+      <div class="header-content"> 
+            <img src="${cvData.photoProfil}" alt="Photo de profil">
+            <div class="header-text">
+              <h1>${cvData.nom}</h1>
+              <h2>${cvData.titre}</h2>
+            </div>  
+      </div>        
     </header>
+    </div>
+
     
     <section class="contact-info scroll-animation">
       <p>Email: ${cvData.contact.email}</p>
       <p>Téléphone: ${cvData.contact.telephone}</p>
       <p>Adresse: ${cvData.contact.adresse}</p>
+      <p>Date de naissance: ${cvData.contact.dateNaissance}</p>
       <p>Âge: ${cvData.contact.age} ans</p>
       <p>Permis: ${cvData.permis.type} ${cvData.permis.vehiculePersonnel ? '(véhicule personnel)' : ''}</p>
     </section>
