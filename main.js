@@ -18,8 +18,8 @@ app.innerHTML = `
 
     
     <section class="contact-info scroll-animation">
-      <p>Email: ${cvData.contact.email}</p>
-      <p>Téléphone: ${cvData.contact.telephone}</p>
+      <p>Email: <a href="mailto:${encodeURIComponent(cvData.contact.email)}">${cvData.contact.email}</a></p>
+      <p>Téléphone: <a href="tel:${cvData.contact.telephone}">${cvData.contact.telephone}</a></p>
       <p>Adresse: ${cvData.contact.adresse}</p>
       <p>Date de naissance: ${cvData.contact.dateNaissance}</p>
       <p>Âge: ${cvData.contact.age} ans</p>
@@ -53,11 +53,20 @@ app.innerHTML = `
     </section>
     
     <section class="competences">
-      <h3 class="scroll-animation">Compétences</h3>
-      <ul>
-        ${cvData.competences.map(comp => `<li class="scroll-animation" tabindex="0">${comp}</li>`).join('')}
-      </ul>
-    </section>
+  <h3 class="scroll-animation">Compétences</h3>
+  <ul>
+    ${cvData.competences.map(category => `
+      <li class="scroll-animation" tabindex="0">
+        <strong>${category.categorie}</strong>
+        <ul>
+          ${category.competences.map(skill => `
+            <li class="scroll-animation" tabindex="0">${skill}</li>
+          `).join('')}
+        </ul>
+      </li>
+    `).join('')}
+  </ul>
+</section>
     
     <section class="langues">
       <h3 class="scroll-animation">Langues</h3>

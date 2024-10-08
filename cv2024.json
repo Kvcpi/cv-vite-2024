@@ -1,11 +1,11 @@
 { 
     "nom": "Kacper Szymanski",
     "titre": "Etudiant Web Designer",
-    "photoProfil": "./public/oui.png",
+    "photoProfil": "./public/moi-cv.jpg",
     "contact": {
-      "email": "szymkacpero13@gmail.com",
+      "email": "kacperr.szymanski@gmail.com",
       "telephone": "0488 06 37 99",
-      "adresse": "Bruxelles, Etterbeek",
+      "adresse": "Rue Louis Hap 128, 1040 Etterbeek",
       "dateNaissance": "19/09/2005",
       "age": 19
     },
@@ -17,17 +17,17 @@
       {
         "poste": "Job étudiant - Employé polyvalent",
         "entreprise": "Colruyt Etterbeek",
-        "periode": "Depuis mars 2023"
+        "periode": "Depuis mars 2023 jusqu'à ce jour"
       },
       {
         "poste": "Stage - Secrétariat",
         "entreprise": "Facq Zaventem",
-        "annee": 2019
+        "annee": 2023
       },
       {
         "poste": "Stage - Secrétariat",
         "entreprise": "Bruxelles Formation Uccle",
-        "annee": 2018
+        "annee": 2022
       }
     ],
     "formations": [
@@ -45,11 +45,28 @@
       }
     ],
     "competences": [
-      "Wordpress",
-      "Woocommerce",
-      "Photoshop",
-      "Illustrator",
-      "Canva"
+    {
+      "categorie": "Suite Adobe",
+      "competences": [
+        "Photoshop",
+        "Illustrator"
+      ]
+    },
+    {
+      "categorie": "Développement Web",
+      "competences": [
+        "HTML",
+        "CSS",
+        "JavaScript - Début de la formation Vite.js, .json, Vue.js, .scss"
+      ]
+    },
+    {
+      "categorie": "CMS",
+      "competences": [
+        "WordPress",
+        "WooCommerce"
+      ]
+    }
     ],
     "langues": [
       {
@@ -58,6 +75,10 @@
       },
       {
         "langue": "Néerlandais",
+        "niveau": "Notion de base"
+      },
+      {
+        "langue": "Anglais",
         "niveau": "Notion de base"
       },
       {
